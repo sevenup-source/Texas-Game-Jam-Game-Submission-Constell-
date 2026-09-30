@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cdcks2pomdsjm"]
+
+[ext_resource type="Texture2D" uid="uid://djg4tn0dmw6ti" path="res://Assets/Sprites/Stars/Star3.png" id="1_n4pgu"]
+[ext_resource type="Script" uid="uid://qkd67hm415ka" path="res://Assets/Scripts/loose_star.gd" id="2_4cqlm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e8f6b"]
+
+[node name="Loose Star" type="Sprite2D" unique_id=1488764129]
+modulate = Color(1, 0.5, 0.5, 1)
+scale = Vector2(2, 2)
+texture = ExtResource("1_n4pgu")
+script = ExtResource("2_4cqlm")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=810776296]
+collision_layer = 8
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=298111142]
+position = Vector2(0, -1)
+scale = Vector2(0.5, 0.384)
+shape = SubResource("CircleShape2D_e8f6b")
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

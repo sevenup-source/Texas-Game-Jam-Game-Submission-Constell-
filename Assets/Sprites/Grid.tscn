@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://pvs3bw8387ap"]
+
+[ext_resource type="PackedScene" uid="uid://bu7yws4b5i6g7" path="res://Assets/Sprites/grid_cell.tscn" id="1_mxens"]
+
+[node name="Grid" type="GridContainer" unique_id=1277860187]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PanelContainer" parent="." unique_id=366424359 instance=ExtResource("1_mxens")]
+layout_mode = 2

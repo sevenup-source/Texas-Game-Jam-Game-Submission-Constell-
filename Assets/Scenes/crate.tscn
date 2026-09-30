@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cfqued1m2lbm1"]
+
+[ext_resource type="Script" uid="uid://d02rb03oykikd" path="res://Assets/Scripts/crate.gd" id="1_m8ls5"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_e8f6b"]
+friction = 0.5
+rough = true
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_02mll"]
+
+[node name="Crate" type="RigidBody2D" unique_id=1795250910]
+collision_layer = 4
+collision_mask = 7
+mass = 2.0
+physics_material_override = SubResource("PhysicsMaterial_e8f6b")
+lock_rotation = true
+continuous_cd = 1
+linear_damp = 5.0
+script = ExtResource("1_m8ls5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1598751596]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1935012459]
+shape = SubResource("RectangleShape2D_02mll")

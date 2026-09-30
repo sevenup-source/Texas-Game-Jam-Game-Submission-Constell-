@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://m2dxukla4sy0"]
+
+[ext_resource type="AudioStream" uid="uid://d35oc55g4nx68" path="res://Assets/TechSciFiLoopIDK.wav" id="1_iuobc"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=1498041834]
+stream = ExtResource("1_iuobc")
+autoplay = true

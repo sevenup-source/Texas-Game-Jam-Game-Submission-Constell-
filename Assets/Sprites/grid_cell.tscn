@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bu7yws4b5i6g7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_02mll"]
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+
+[node name="PanelContainer" type="PanelContainer" unique_id=366424359]
+custom_minimum_size = Vector2(100, 100)
+theme_override_styles/panel = SubResource("StyleBoxFlat_02mll")

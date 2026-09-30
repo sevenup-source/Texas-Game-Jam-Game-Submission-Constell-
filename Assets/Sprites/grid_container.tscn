@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dm31gydlm5r42"]
+
+[ext_resource type="Script" uid="uid://b6ag3oo22oxlh" path="res://Assets/Scripts/grid_container.gd" id="1_urhqb"]
+
+[node name="Grid" type="GridContainer" unique_id=2013417565]
+offset_right = 500.0
+offset_bottom = 1000.0
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 5
+script = ExtResource("1_urhqb")

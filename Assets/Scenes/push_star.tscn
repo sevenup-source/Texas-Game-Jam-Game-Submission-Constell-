@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cll2estgn7256"]
+
+[ext_resource type="Script" uid="uid://cy3ur5iwtwrvj" path="res://Assets/Scripts/push_star.gd" id="1_gvag4"]
+[ext_resource type="Texture2D" uid="uid://cmxr2svxcip8j" path="res://Assets/Sprites/Stars/Star1.png" id="2_eugn0"]
+
+[node name="PushStar" type="Node2D" unique_id=1824205045]
+script = ExtResource("1_gvag4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=517689045]
+texture = ExtResource("2_eugn0")

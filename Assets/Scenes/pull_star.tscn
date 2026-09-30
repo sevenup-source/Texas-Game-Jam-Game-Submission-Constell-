@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cqsy7bxgcmi8s"]
+
+[ext_resource type="Script" uid="uid://beefbx6jplcy" path="res://Assets/Scripts/pull_star.gd" id="1_fpnaa"]
+[ext_resource type="Texture2D" uid="uid://cmxr2svxcip8j" path="res://Assets/Sprites/Stars/Star1.png" id="2_3h50r"]
+
+[node name="PullStar" type="Node2D" unique_id=1600258843]
+script = ExtResource("1_fpnaa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1918806021]
+texture = ExtResource("2_3h50r")
